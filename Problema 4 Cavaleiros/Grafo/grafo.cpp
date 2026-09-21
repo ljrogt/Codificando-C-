@@ -52,4 +52,7 @@
    std::vector<int> grafo::informarAdjacentes(int v){
         return adjacentes[v];
     }
-
+   
+    int grafo::informarVertice(){
+	return numVertices;
+    }

@@ -5,7 +5,7 @@
 #include <queue>
 
 BFS::BFS(grafo g, int n){
-	for(int i=0;i<64;i++){
+	for(int i=0;i<g.informarVertice();i++){
 		vertice v;
 		v.explorado=false;
 		v.distancia=INFINITY;

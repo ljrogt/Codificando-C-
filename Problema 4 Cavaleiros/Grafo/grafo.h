@@ -19,4 +19,5 @@ public:
     void removerAresta(int v, int u);
 
    std::vector<int> informarAdjacentes(int v);
+    int informarVertice();
 };
